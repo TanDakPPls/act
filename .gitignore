@@ -1,0 +1,14 @@
+cocos2d/
+bin/
+.DS_Store
+proj.ios_mac/
+proj.android/
+proj.android/obj/
+proj.android/libs/
+proj.android/bin/
+proj.android/gen/
+proj.android/asset/
+proj.android/.idea/
+proj.android/out/
+*.xcodeproj/
+*.o
