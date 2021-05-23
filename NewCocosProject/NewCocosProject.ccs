@@ -21,6 +21,32 @@
           <Project Name="TowerBase.csd" Type="Node" />
           <Project Name="TowerBody.csd" Type="Node" />
         </Folder>
+        <Folder Name="choose">
+          <Project Name="choose1.csd" Type="Layer" />
+          <Project Name="choose2.csd" Type="Layer" />
+          <Project Name="name.csd" Type="Node" />
+        </Folder>
+        <Folder Name="libao">
+          <Project Name="chaojijinbilibao.csd" Type="Layer" />
+          <Project Name="chaojizuanshilibao.csd" Type="Layer" />
+          <Project Name="dijijinbilibao.csd" Type="Layer" />
+          <Project Name="dijizuanshilibao.csd" Type="Layer" />
+          <Project Name="fuhuolibao.csd" Type="Layer" />
+          <Project Name="gaojijinbilibao.csd" Type="Layer" />
+          <Project Name="gaojizuanshilibao.csd" Type="Layer" />
+          <Project Name="jinengdianduihuan.csd" Type="Layer" />
+          <Project Name="jingyanlibao.csd" Type="Layer" />
+          <Project Name="qianglifuhuo.csd" Type="Layer" />
+          <Project Name="sanjiantao.csd" Type="Layer" />
+          <Project Name="shenbinglibao1.csd" Type="Layer" />
+          <Project Name="shenbinglibao2.csd" Type="Layer" />
+          <Project Name="shenbingshiyong1.csd" Type="Layer" />
+          <Project Name="shenbingshiyong2.csd" Type="Layer" />
+          <Project Name="xinshoulibao.csd" Type="Layer" />
+          <Project Name="yingxionglibao.csd" Type="Layer" />
+          <Project Name="zhongjijinbilibao.csd" Type="Layer" />
+          <Project Name="zhongjizuanshilibao.csd" Type="Layer" />
+        </Folder>
         <Folder Name="ui">
           <PlistImageFolder Image="battle_hp.png" PListFile="battle_hp.plist" Name=".battle_hp_PList.Dir">
             <PlistImageFile Name="battle_hp0.png" Key="battle_hp0.png" />
@@ -637,7 +663,6 @@
           <Image Name="Prop_icon_7.png" />
           <Image Name="Prop_icon_8.png" />
           <Image Name="Prop_icon_9.png" />
-          <Image Name="ptwf.png" />
           <Image Name="qh_qiang.png" />
           <Image Name="qh_sheng.png" />
           <Image Name="qh_shou.png" />
@@ -694,12 +719,6 @@
           <Image Name="shengjizi3.png" />
           <Image Name="shengmingzi.png" />
           <Image Name="shenmishengdibiao.png" />
-          <Image Name="shenqi_102.png" />
-          <Image Name="shenqi_103.png" />
-          <Image Name="shenqi_202.png" />
-          <Image Name="shenqi_203.png" />
-          <Image Name="shenqi_302.png" />
-          <Image Name="shenqi_303.png" />
           <Image Name="shenqi_xiexia.png" />
           <Image Name="shenqi_zhuangbei .png" />
           <Image Name="shenqibiao.png" />
@@ -760,7 +779,6 @@
           <Image Name="suolian.png" />
           <Image Name="switch.png" />
           <Image Name="ta1.png" />
-          <Image Name="ta2.png" />
           <Image Name="ta3.png" />
           <Image Name="ta4.png" />
           <Image Name="takeon.png" />
@@ -958,32 +976,6 @@
         </Folder>
         <Image Name="HelloWorld.png" />
         <Project Name="MainScene.csd" Type="Scene" />
-        <Folder Name="libao">
-          <Project Name="chaojijinbilibao.csd" Type="Layer" />
-          <Project Name="chaojizuanshilibao.csd" Type="Layer" />
-          <Project Name="dijijinbilibao.csd" Type="Layer" />
-          <Project Name="dijizuanshilibao.csd" Type="Layer" />
-          <Project Name="fuhuolibao.csd" Type="Layer" />
-          <Project Name="gaojijinbilibao.csd" Type="Layer" />
-          <Project Name="gaojizuanshilibao.csd" Type="Layer" />
-          <Project Name="jingyanlibao.csd" Type="Layer" />
-          <Project Name="shenbinglibao1.csd" Type="Layer" />
-          <Project Name="shenbinglibao2.csd" Type="Layer" />
-          <Project Name="xinshoulibao.csd" Type="Layer" />
-          <Project Name="yingxionglibao.csd" Type="Layer" />
-          <Project Name="zhongjijinbilibao.csd" Type="Layer" />
-          <Project Name="zhongjizuanshilibao.csd" Type="Layer" />
-          <Project Name="qianglifuhuo.csd" Type="Layer" />
-          <Project Name="sanjiantao.csd" Type="Layer" />
-          <Project Name="shenbingshiyong1.csd" Type="Layer" />
-          <Project Name="shenbingshiyong2.csd" Type="Layer" />
-          <Project Name="jinengdianduihuan.csd" Type="Layer" />
-        </Folder>
-        <Folder Name="choose">
-          <Project Name="choose1.csd" Type="Layer" />
-          <Project Name="choose2.csd" Type="Layer" />
-          <Project Name="name.csd" Type="Node" />
-        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>
