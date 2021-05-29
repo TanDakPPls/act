@@ -47,6 +47,10 @@
           <Project Name="zhongjijinbilibao.csd" Type="Layer" />
           <Project Name="zhongjizuanshilibao.csd" Type="Layer" />
         </Folder>
+        <Folder Name="Particle">
+          <PlistParticleFile Name="frie.plist" />
+          <PlistParticleFile Name="yun.plist" />
+        </Folder>
         <Folder Name="ui">
           <PlistImageFolder Image="battle_hp.png" PListFile="battle_hp.plist" Name=".battle_hp_PList.Dir">
             <PlistImageFile Name="battle_hp0.png" Key="battle_hp0.png" />
@@ -596,6 +600,7 @@
           <Image Name="LV.png" />
           <Image Name="lvbook.png" />
           <Image Name="lvbool.png" />
+          <Image Name="map_cloud.png" />
           <Image Name="meirituijianlibaozi.png" />
           <Image Name="mianfeifanpaifan.jpg" />
           <Image Name="mianfeifanpaizheng.jpg" />
@@ -696,6 +701,7 @@
           <Image Name="saleall.png" />
           <Image Name="saleallone.png" />
           <Image Name="saleflash.png" />
+          <Image Name="sanjiantaolibao.png" />
           <Image Name="saodangjiesuanzi.png" />
           <Image Name="shadow.png" />
           <Image Name="shaizi.png" />
@@ -863,6 +869,21 @@
           <Image Name="xiexiazi.png" />
           <Image Name="xiezhudi.png" />
           <Image Name="xiezhuguang.png" />
+          <Image Name="xili-01.png" />
+          <Image Name="xili-02.png" />
+          <Image Name="xili-03.png" />
+          <Image Name="xili-04.png" />
+          <Image Name="xili-05.png" />
+          <Image Name="xili-06.png" />
+          <Image Name="xili-07.png" />
+          <Image Name="xili-08.png" />
+          <Image Name="xili-09.png" />
+          <Image Name="xili-10.png" />
+          <Image Name="xili-11.png" />
+          <Image Name="xili-12.png" />
+          <Image Name="xili-13.png" />
+          <Image Name="xili-14.png" />
+          <Image Name="xili-15.png" />
           <Image Name="xingguang.png" />
           <Image Name="xingxing.png" />
           <Image Name="xinnianhongbaobiao.png" />
@@ -932,6 +953,7 @@
           <Image Name="zhuangbeishengjianniu.png" />
           <Image Name="zhuangbeixuanze.png" />
           <Image Name="zhuangbeizi.png" />
+          <Image Name="zhuye.png" />
           <Image Name="zhuye_1.png" />
           <Image Name="zhuye_2.png" />
           <Image Name="zhuye_3.png" />
@@ -973,6 +995,11 @@
           <Image Name="zyjz5.png" />
           <Image Name="zyjz5_1.png" />
           <Image Name="zyjz5_2.png" />
+        </Folder>
+        <Folder Name="zhujiemian">
+          <Project Name="zhujiemian.csd" Type="Layer" />
+          <Project Name="zhujiemianzuo.csd" Type="Node" />
+          <Project Name="zhujiemianyou.csd" Type="Node" />
         </Folder>
         <Image Name="HelloWorld.png" />
         <Project Name="MainScene.csd" Type="Scene" />
