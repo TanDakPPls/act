@@ -2,7 +2,7 @@
   <PropertyGroup Name="choose2" Type="Layer" ID="c60a85f9-1207-4977-bca9-f53ef3ba6bc9" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="47" Speed="0.5000" ActivedAnimationName="in3">
+      <Animation Duration="47" Speed="0.5000">
         <Timeline ActionTag="-83130702" Property="Position">
           <PointFrame FrameIndex="0" X="482.1470" Y="316.6306">
             <EasingData Type="0" />
@@ -1179,13 +1179,13 @@
       </Animation>
       <AnimationList>
         <AnimationInfo Name="in1" StartIndex="0" EndIndex="15">
-          <RenderColor A="150" R="85" G="107" B="47" />
+          <RenderColor A="255" R="85" G="107" B="47" />
         </AnimationInfo>
         <AnimationInfo Name="in2" StartIndex="16" EndIndex="31">
-          <RenderColor A="150" R="165" G="42" B="42" />
+          <RenderColor A="255" R="165" G="42" B="42" />
         </AnimationInfo>
         <AnimationInfo Name="in3" StartIndex="32" EndIndex="47">
-          <RenderColor A="150" R="255" G="239" B="213" />
+          <RenderColor A="255" R="255" G="239" B="213" />
         </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Layer" Tag="1050" ctype="GameLayerObjectData">
@@ -1201,7 +1201,7 @@
             <PreSize X="0.8333" Y="0.7500" />
             <FileData Type="Normal" Path="ui/role1bg.jpg" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="jianzhumingzidi_3" ActionTag="-884523989" Tag="1053" IconVisible="False" LeftMargin="482.1900" RightMargin="139.8100" TopMargin="58.9614" BottomMargin="547.0386" ctype="SpriteObjectData">
+          <AbstractNodeData Name="jianzhumingzidi_3" ActionTag="-884523989" Alpha="178" Tag="1053" IconVisible="False" LeftMargin="482.1900" RightMargin="139.8100" TopMargin="58.9614" BottomMargin="547.0386" ctype="SpriteObjectData">
             <Size X="338.0000" Y="34.0000" />
             <Children>
               <AbstractNodeData Name="jianshengzi_6" ActionTag="1591114267" Tag="1054" IconVisible="False" LeftMargin="126.2446" RightMargin="124.7554" TopMargin="4.6379" BottomMargin="3.3621" ctype="SpriteObjectData">
@@ -1225,7 +1225,7 @@
             <FileData Type="Normal" Path="ui/name_di.png" Plist="" />
             <BlendFunc Src="770" Dst="1" />
           </AbstractNodeData>
-          <AbstractNodeData Name="choose1" ActionTag="638324814" Tag="1051" IconVisible="False" LeftMargin="38.0005" RightMargin="621.9995" TopMargin="41.5900" BottomMargin="37.4100" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="173" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="choose1" ActionTag="638324814" Tag="1051" IconVisible="False" LeftMargin="38.0005" RightMargin="621.9995" TopMargin="-131.3370" BottomMargin="210.3370" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="173" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="300.0000" Y="561.0000" />
             <Children>
               <AbstractNodeData Name="roleart_jian_2" ActionTag="1932473955" Tag="1052" IconVisible="False" LeftMargin="31.2629" RightMargin="26.7371" TopMargin="55.3022" BottomMargin="80.6978" ctype="SpriteObjectData">
@@ -1239,7 +1239,7 @@
                 <FileData Type="Normal" Path="ui/roleart_jian.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="suolian_13" ActionTag="1118737224" Alpha="0" Tag="47" IconVisible="False" LeftMargin="119.7819" RightMargin="120.2181" TopMargin="-133.8734" BottomMargin="543.8734" ctype="SpriteObjectData">
+              <AbstractNodeData Name="suolian_13" ActionTag="1118737224" Tag="47" IconVisible="False" LeftMargin="119.7819" RightMargin="120.2181" TopMargin="-133.8734" BottomMargin="543.8734" ctype="SpriteObjectData">
                 <Size X="60.0000" Y="151.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="149.7819" Y="619.3734" />
@@ -1252,17 +1252,17 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="188.0005" Y="317.9100" />
+            <Position X="188.0005" Y="490.8370" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1958" Y="0.4967" />
+            <PrePosition X="0.1958" Y="0.7669" />
             <PreSize X="0.3125" Y="0.8766" />
             <TextColor A="255" R="65" G="65" B="70" />
             <NormalFileData Type="Normal" Path="ui/xinxidi.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_2" ActionTag="1341573676" Alpha="217" Tag="1058" IconVisible="False" LeftMargin="384.3754" RightMargin="41.6246" TopMargin="126.7002" BottomMargin="213.2998" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="36" Scale9Height="40" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_2" ActionTag="1341573676" Alpha="217" Tag="1058" IconVisible="False" LeftMargin="547.8660" RightMargin="-121.8660" TopMargin="126.7002" BottomMargin="213.2998" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="36" Scale9Height="40" ctype="ImageViewObjectData">
             <Size X="534.0000" Y="300.0000" />
             <Children>
               <AbstractNodeData Name="Text_1" ActionTag="1843987967" Tag="1059" IconVisible="False" LeftMargin="30.9462" RightMargin="413.0538" TopMargin="22.1848" BottomMargin="257.8152" FontSize="20" LabelText="英雄介绍:" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -1333,14 +1333,14 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="651.3754" Y="363.2998" />
+            <Position X="814.8660" Y="363.2998" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.6785" Y="0.5677" />
+            <PrePosition X="0.8488" Y="0.5677" />
             <PreSize X="0.5562" Y="0.4688" />
             <FileData Type="Normal" Path="ui/xinxidi3.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_2" ActionTag="113150911" Tag="1065" IconVisible="False" LeftMargin="451.0150" RightMargin="358.9850" TopMargin="532.5956" BottomMargin="55.4044" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_2" ActionTag="113150911" Alpha="119" Tag="1065" IconVisible="False" LeftMargin="451.0150" RightMargin="358.9850" TopMargin="532.5956" BottomMargin="55.4044" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="150.0000" Y="52.0000" />
             <Children>
               <AbstractNodeData Name="cancel_9" ActionTag="-2003658356" Tag="1066" IconVisible="False" LeftMargin="52.9270" RightMargin="53.0730" TopMargin="15.5937" BottomMargin="13.4063" ctype="SpriteObjectData">
@@ -1366,7 +1366,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_2_0" ActionTag="-1099864875" Tag="1067" IconVisible="False" LeftMargin="710.4287" RightMargin="99.5713" TopMargin="533.8166" BottomMargin="54.1834" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_2_0" ActionTag="-1099864875" Alpha="119" Tag="1067" IconVisible="False" LeftMargin="710.4287" RightMargin="99.5713" TopMargin="533.8166" BottomMargin="54.1834" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="150.0000" Y="52.0000" />
             <Children>
               <AbstractNodeData Name="cancel_9" ActionTag="-1565051107" Tag="1068" IconVisible="False" LeftMargin="49.4548" RightMargin="49.5452" TopMargin="13.0054" BottomMargin="13.9946" ctype="SpriteObjectData">
@@ -1392,18 +1392,18 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="chou_4_1" ActionTag="-457462061" Tag="46" IconVisible="False" LeftMargin="532.2738" RightMargin="184.7262" TopMargin="54.9073" BottomMargin="542.0927" ctype="SpriteObjectData">
+          <AbstractNodeData Name="chou_4_1" ActionTag="-457462061" Alpha="178" Tag="46" IconVisible="False" LeftMargin="532.2738" RightMargin="184.7262" TopMargin="54.9073" BottomMargin="542.0927" ctype="SpriteObjectData">
             <Size X="243.0000" Y="43.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="653.7738" Y="563.5927" />
-            <Scale ScaleX="3.5000" ScaleY="0.0100" />
+            <Scale ScaleX="1.4030" ScaleY="1.4030" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.6810" Y="0.8806" />
             <PreSize X="0.2531" Y="0.0672" />
             <FileData Type="Normal" Path="ui/chou_4.png" Plist="" />
             <BlendFunc Src="770" Dst="1" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_1_0" ActionTag="441843640" Tag="66" IconVisible="False" LeftMargin="82.1470" RightMargin="77.8530" TopMargin="83.3694" BottomMargin="76.6306" LeftEage="79" RightEage="79" TopEage="140" BottomEage="140" Scale9OriginX="79" Scale9OriginY="140" Scale9Width="642" Scale9Height="200" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_1_0" ActionTag="441843640" Alpha="0" Tag="66" IconVisible="False" LeftMargin="82.1470" RightMargin="77.8530" TopMargin="83.3694" BottomMargin="76.6306" LeftEage="79" RightEage="79" TopEage="140" BottomEage="140" Scale9OriginX="79" Scale9OriginY="140" Scale9Width="642" Scale9Height="200" ctype="ImageViewObjectData">
             <Size X="800.0000" Y="480.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="482.1470" Y="316.6306" />
@@ -1413,7 +1413,7 @@
             <PreSize X="0.8333" Y="0.7500" />
             <FileData Type="Normal" Path="ui/role3bg.jpg" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="jianzhumingzidi_3_0" ActionTag="-290156258" Tag="67" IconVisible="False" LeftMargin="482.1900" RightMargin="139.8100" TopMargin="58.9614" BottomMargin="547.0386" ctype="SpriteObjectData">
+          <AbstractNodeData Name="jianzhumingzidi_3_0" ActionTag="-290156258" Alpha="0" Tag="67" IconVisible="False" LeftMargin="482.1900" RightMargin="139.8100" TopMargin="58.9614" BottomMargin="547.0386" ctype="SpriteObjectData">
             <Size X="338.0000" Y="34.0000" />
             <Children>
               <AbstractNodeData Name="jianshengzi_6" ActionTag="-1104711803" Tag="68" IconVisible="False" LeftMargin="136.7446" RightMargin="135.2554" TopMargin="4.6379" BottomMargin="3.3621" ctype="SpriteObjectData">
@@ -1437,7 +1437,7 @@
             <FileData Type="Normal" Path="ui/name_di.png" Plist="" />
             <BlendFunc Src="770" Dst="1" />
           </AbstractNodeData>
-          <AbstractNodeData Name="choose1_0" ActionTag="-445905332" Tag="69" IconVisible="False" LeftMargin="38.0005" RightMargin="621.9995" TopMargin="41.5900" BottomMargin="37.4100" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="173" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="choose1_0" ActionTag="-445905332" Alpha="0" Tag="69" IconVisible="False" LeftMargin="38.0005" RightMargin="621.9995" TopMargin="-560.5000" BottomMargin="639.5000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="173" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="300.0000" Y="561.0000" />
             <Children>
               <AbstractNodeData Name="roleart_jian_2" ActionTag="-747397834" Tag="70" IconVisible="False" LeftMargin="31.2629" RightMargin="26.7371" TopMargin="50.3022" BottomMargin="75.6978" ctype="SpriteObjectData">
@@ -1464,17 +1464,17 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="188.0005" Y="317.9100" />
+            <Position X="188.0005" Y="920.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1958" Y="0.4967" />
+            <PrePosition X="0.1958" Y="1.4375" />
             <PreSize X="0.3125" Y="0.8766" />
             <TextColor A="255" R="65" G="65" B="70" />
             <NormalFileData Type="Normal" Path="ui/xinxidi.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_2_0" ActionTag="-1060713365" Tag="72" IconVisible="False" LeftMargin="384.3754" RightMargin="41.6246" TopMargin="126.7002" BottomMargin="213.2998" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="36" Scale9Height="40" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_2_0" ActionTag="-1060713365" Alpha="0" Tag="72" IconVisible="False" LeftMargin="976.0000" RightMargin="-550.0000" TopMargin="126.7002" BottomMargin="213.2998" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="36" Scale9Height="40" ctype="ImageViewObjectData">
             <Size X="534.0000" Y="300.0000" />
             <Children>
               <AbstractNodeData Name="Text_1" ActionTag="1753546297" Tag="73" IconVisible="False" LeftMargin="30.9462" RightMargin="413.0538" TopMargin="22.1848" BottomMargin="257.8152" FontSize="20" LabelText="英雄介绍:" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -1545,14 +1545,14 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="651.3754" Y="363.2998" />
+            <Position X="1243.0000" Y="363.2998" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.6785" Y="0.5677" />
+            <PrePosition X="1.2948" Y="0.5677" />
             <PreSize X="0.5562" Y="0.4688" />
             <FileData Type="Normal" Path="ui/xinxidi3.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_2_1" ActionTag="-2112099710" Tag="79" IconVisible="False" LeftMargin="451.0150" RightMargin="358.9850" TopMargin="532.5956" BottomMargin="55.4044" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_2_1" ActionTag="-2112099710" Alpha="0" Tag="79" IconVisible="False" LeftMargin="451.0150" RightMargin="358.9850" TopMargin="532.5956" BottomMargin="55.4044" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="150.0000" Y="52.0000" />
             <Children>
               <AbstractNodeData Name="cancel_9" ActionTag="578687845" Tag="80" IconVisible="False" LeftMargin="52.9270" RightMargin="53.0730" TopMargin="15.5937" BottomMargin="13.4063" ctype="SpriteObjectData">
@@ -1578,7 +1578,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_2_0_0" ActionTag="781793556" Tag="81" IconVisible="False" LeftMargin="710.4287" RightMargin="99.5713" TopMargin="533.8166" BottomMargin="54.1834" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_2_0_0" ActionTag="781793556" Alpha="0" Tag="81" IconVisible="False" LeftMargin="710.4287" RightMargin="99.5713" TopMargin="533.8166" BottomMargin="54.1834" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="150.0000" Y="52.0000" />
             <Children>
               <AbstractNodeData Name="cancel_9" ActionTag="-484970057" Tag="82" IconVisible="False" LeftMargin="49.4548" RightMargin="49.5452" TopMargin="13.0054" BottomMargin="13.9946" ctype="SpriteObjectData">
@@ -1604,18 +1604,18 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="chou_4_1_0" ActionTag="948538013" Tag="83" IconVisible="False" LeftMargin="532.2738" RightMargin="184.7262" TopMargin="54.9073" BottomMargin="542.0927" ctype="SpriteObjectData">
+          <AbstractNodeData Name="chou_4_1_0" ActionTag="948538013" Alpha="0" Tag="83" IconVisible="False" LeftMargin="532.2738" RightMargin="184.7262" TopMargin="54.9073" BottomMargin="542.0927" ctype="SpriteObjectData">
             <Size X="243.0000" Y="43.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="653.7738" Y="563.5927" />
-            <Scale ScaleX="3.5000" ScaleY="0.0100" />
+            <Scale ScaleX="0.0100" ScaleY="0.0100" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.6810" Y="0.8806" />
             <PreSize X="0.2531" Y="0.0672" />
             <FileData Type="Normal" Path="ui/chou_4.png" Plist="" />
             <BlendFunc Src="770" Dst="1" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_1_0_0" ActionTag="-1935944657" Tag="85" IconVisible="False" LeftMargin="82.1470" RightMargin="77.8530" TopMargin="83.3694" BottomMargin="76.6306" LeftEage="79" RightEage="79" TopEage="140" BottomEage="140" Scale9OriginX="79" Scale9OriginY="140" Scale9Width="642" Scale9Height="200" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_1_0_0" ActionTag="-1935944657" Alpha="0" Tag="85" IconVisible="False" LeftMargin="82.1470" RightMargin="77.8530" TopMargin="83.3694" BottomMargin="76.6306" LeftEage="79" RightEage="79" TopEage="140" BottomEage="140" Scale9OriginX="79" Scale9OriginY="140" Scale9Width="642" Scale9Height="200" ctype="ImageViewObjectData">
             <Size X="800.0000" Y="480.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="482.1470" Y="316.6306" />
@@ -1625,7 +1625,7 @@
             <PreSize X="0.8333" Y="0.7500" />
             <FileData Type="Normal" Path="ui/role2bg.jpg" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="jianzhumingzidi_3_0_0" ActionTag="-707572250" Tag="86" IconVisible="False" LeftMargin="482.1900" RightMargin="139.8100" TopMargin="58.9614" BottomMargin="547.0386" ctype="SpriteObjectData">
+          <AbstractNodeData Name="jianzhumingzidi_3_0_0" ActionTag="-707572250" Alpha="0" Tag="86" IconVisible="False" LeftMargin="482.1900" RightMargin="139.8100" TopMargin="58.9614" BottomMargin="547.0386" ctype="SpriteObjectData">
             <Size X="338.0000" Y="34.0000" />
             <Children>
               <AbstractNodeData Name="jianshengzi_6" ActionTag="1263679217" Tag="87" IconVisible="False" LeftMargin="139.2446" RightMargin="137.7554" TopMargin="4.6379" BottomMargin="3.3621" ctype="SpriteObjectData">
@@ -1649,7 +1649,7 @@
             <FileData Type="Normal" Path="ui/name_di.png" Plist="" />
             <BlendFunc Src="770" Dst="1" />
           </AbstractNodeData>
-          <AbstractNodeData Name="choose1_0_0" ActionTag="461846518" Tag="88" IconVisible="False" LeftMargin="38.0005" RightMargin="621.9995" TopMargin="41.5900" BottomMargin="37.4100" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="173" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="choose1_0_0" ActionTag="461846518" Alpha="0" Tag="88" IconVisible="False" LeftMargin="38.0005" RightMargin="621.9995" TopMargin="-560.5000" BottomMargin="639.5000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="169" Scale9Height="173" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="300.0000" Y="561.0000" />
             <Children>
               <AbstractNodeData Name="roleart_jian_2" ActionTag="1385211779" Tag="89" IconVisible="False" LeftMargin="31.2629" RightMargin="26.7371" TopMargin="50.3022" BottomMargin="75.6978" ctype="SpriteObjectData">
@@ -1676,17 +1676,17 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="188.0005" Y="317.9100" />
+            <Position X="188.0005" Y="920.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1958" Y="0.4967" />
+            <PrePosition X="0.1958" Y="1.4375" />
             <PreSize X="0.3125" Y="0.8766" />
             <TextColor A="255" R="65" G="65" B="70" />
             <NormalFileData Type="Normal" Path="ui/xinxidi.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_2_0_0" ActionTag="-296244520" Tag="91" IconVisible="False" LeftMargin="384.3754" RightMargin="41.6246" TopMargin="126.7002" BottomMargin="213.2998" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="36" Scale9Height="40" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_2_0_0" ActionTag="-296244520" Alpha="0" Tag="91" IconVisible="False" LeftMargin="976.0000" RightMargin="-550.0000" TopMargin="126.7002" BottomMargin="213.2998" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="36" Scale9Height="40" ctype="ImageViewObjectData">
             <Size X="534.0000" Y="300.0000" />
             <Children>
               <AbstractNodeData Name="Text_1" ActionTag="-865077114" Tag="92" IconVisible="False" LeftMargin="30.9462" RightMargin="413.0538" TopMargin="22.1848" BottomMargin="257.8152" FontSize="20" LabelText="英雄介绍:" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -1757,14 +1757,14 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="651.3754" Y="363.2998" />
+            <Position X="1243.0000" Y="363.2998" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.6785" Y="0.5677" />
+            <PrePosition X="1.2948" Y="0.5677" />
             <PreSize X="0.5562" Y="0.4688" />
             <FileData Type="Normal" Path="ui/xinxidi3.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_2_1_0" ActionTag="2021339543" Tag="98" IconVisible="False" LeftMargin="451.0150" RightMargin="358.9850" TopMargin="532.5956" BottomMargin="55.4044" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_2_1_0" ActionTag="2021339543" Alpha="0" Tag="98" IconVisible="False" LeftMargin="451.0150" RightMargin="358.9850" TopMargin="532.5956" BottomMargin="55.4044" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="150.0000" Y="52.0000" />
             <Children>
               <AbstractNodeData Name="cancel_9" ActionTag="1852082044" Tag="99" IconVisible="False" LeftMargin="52.9270" RightMargin="53.0730" TopMargin="15.5937" BottomMargin="13.4063" ctype="SpriteObjectData">
@@ -1790,7 +1790,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_2_0_0_0" ActionTag="1989252061" Tag="100" IconVisible="False" LeftMargin="710.4287" RightMargin="99.5713" TopMargin="533.8166" BottomMargin="54.1834" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_2_0_0_0" ActionTag="1989252061" Alpha="0" Tag="100" IconVisible="False" LeftMargin="710.4287" RightMargin="99.5713" TopMargin="533.8166" BottomMargin="54.1834" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="86" Scale9Height="30" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="150.0000" Y="52.0000" />
             <Children>
               <AbstractNodeData Name="cancel_9" ActionTag="1234826807" Tag="101" IconVisible="False" LeftMargin="49.4548" RightMargin="49.5452" TopMargin="13.0054" BottomMargin="13.9946" ctype="SpriteObjectData">
@@ -1816,11 +1816,11 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="chou_4_1_0_0" ActionTag="-368660249" Tag="102" IconVisible="False" LeftMargin="532.2738" RightMargin="184.7262" TopMargin="54.9073" BottomMargin="542.0927" ctype="SpriteObjectData">
+          <AbstractNodeData Name="chou_4_1_0_0" ActionTag="-368660249" Alpha="0" Tag="102" IconVisible="False" LeftMargin="532.2738" RightMargin="184.7262" TopMargin="54.9073" BottomMargin="542.0927" ctype="SpriteObjectData">
             <Size X="243.0000" Y="43.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="653.7738" Y="563.5927" />
-            <Scale ScaleX="3.5000" ScaleY="0.0100" />
+            <Scale ScaleX="0.0100" ScaleY="0.0100" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.6810" Y="0.8806" />
             <PreSize X="0.2531" Y="0.0672" />

@@ -2,7 +2,7 @@
   <PropertyGroup Name="choose1" Type="Layer" ID="a89f0f02-56d8-45ba-ac4c-74d449e049e6" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="61" Speed="0.5000">
+      <Animation Duration="61" Speed="0.5000" ActivedAnimationName="choose3">
         <Timeline ActionTag="-637910984" Property="Position">
           <PointFrame FrameIndex="0" X="479.4432" Y="920.0000">
             <EasingData Type="0" />
@@ -25,7 +25,7 @@
           <PointFrame FrameIndex="36" X="479.4432" Y="321.0900">
             <EasingData Type="0" />
           </PointFrame>
-          <PointFrame FrameIndex="44" X="479.4432" Y="321.0900">
+          <PointFrame FrameIndex="44" X="479.4432" Y="308.0896">
             <EasingData Type="0" />
           </PointFrame>
           <PointFrame FrameIndex="48" X="479.4432" Y="920.0000">
@@ -312,16 +312,16 @@
       </Animation>
       <AnimationList>
         <AnimationInfo Name="in" StartIndex="0" EndIndex="22">
-          <RenderColor A="150" R="255" G="218" B="185" />
+          <RenderColor A="255" R="255" G="218" B="185" />
         </AnimationInfo>
         <AnimationInfo Name="choose1" StartIndex="23" EndIndex="35">
-          <RenderColor A="150" R="138" G="43" B="226" />
+          <RenderColor A="255" R="138" G="43" B="226" />
         </AnimationInfo>
-        <AnimationInfo Name="choose2" StartIndex="27" EndIndex="48">
-          <RenderColor A="150" R="0" G="128" B="0" />
+        <AnimationInfo Name="choose2" StartIndex="36" EndIndex="48">
+          <RenderColor A="255" R="0" G="128" B="0" />
         </AnimationInfo>
         <AnimationInfo Name="choose3" StartIndex="49" EndIndex="61">
-          <RenderColor A="150" R="0" G="128" B="128" />
+          <RenderColor A="255" R="0" G="128" B="128" />
         </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Layer" Tag="1030" ctype="GameLayerObjectData">

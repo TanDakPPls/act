@@ -588,6 +588,7 @@
           <Image Name="lizi.jpg" />
           <Image Name="lizi.png" />
           <Image Name="ljcz.png" />
+          <Image Name="loadingbg.png" />
           <Image Name="loclbrk_1.png" />
           <Image Name="loclbrk_2.png" />
           <Image Name="loclbrk_3.png" />
@@ -998,11 +999,17 @@
         </Folder>
         <Folder Name="zhujiemian">
           <Project Name="zhujiemian.csd" Type="Layer" />
-          <Project Name="zhujiemianzuo.csd" Type="Node" />
           <Project Name="zhujiemianyou.csd" Type="Node" />
+          <Project Name="zhujiemianzuo.csd" Type="Node" />
         </Folder>
         <Image Name="HelloWorld.png" />
         <Project Name="MainScene.csd" Type="Scene" />
+        <Folder Name="loading">
+          <Project Name="loading.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="dixiacheng">
+          <Project Name="Layer.csd" Type="Layer" />
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>
