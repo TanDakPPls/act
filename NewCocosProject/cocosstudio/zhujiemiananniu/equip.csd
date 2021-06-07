@@ -151,7 +151,7 @@
       <ObjectData Name="Layer" Tag="212" ctype="GameLayerObjectData">
         <Size X="800.0000" Y="480.0000" />
         <Children>
-          <AbstractNodeData Name="bg_panel" ActionTag="-998951808" Tag="213" IconVisible="False" LeftMargin="442.9621" RightMargin="37.0379" TopMargin="50.0100" BottomMargin="29.9900" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ColorAngle="90.0000" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="36" Scale9Height="40" ctype="PanelObjectData">
+          <AbstractNodeData Name="bg_panel" ActionTag="-998951808" Tag="213" IconVisible="False" LeftMargin="442.9621" RightMargin="37.0379" TopMargin="47.2119" BottomMargin="32.7881" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ColorAngle="90.0000" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="36" Scale9Height="40" ctype="PanelObjectData">
             <Size X="320.0000" Y="400.0000" />
             <Children>
               <AbstractNodeData Name="close_button" ActionTag="-1921907140" Tag="188" IconVisible="False" LeftMargin="282.6852" RightMargin="-17.6852" TopMargin="-22.5896" BottomMargin="367.5896" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="25" Scale9Height="33" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
@@ -167,15 +167,15 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="equip_page" ActionTag="-1217642804" Tag="215" IconVisible="True" LeftMargin="165.5700" RightMargin="154.4300" TopMargin="178.8657" BottomMargin="221.1343" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="0.5000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+              <AbstractNodeData Name="equip_page" ActionTag="-1217642804" Tag="215" IconVisible="True" LeftMargin="165.5700" RightMargin="154.4300" TopMargin="179.0016" BottomMargin="220.9984" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="0.5000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                 <Size X="0.0000" Y="0.0000" />
                 <AnchorPoint />
-                <Position X="165.5700" Y="221.1343" />
+                <Position X="165.5700" Y="220.9984" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.5174" Y="0.5528" />
+                <PrePosition X="0.5174" Y="0.5525" />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="ccb/PageViewNode.csd" Plist="" />
+                <FileData Type="Normal" Path="zhujiemiananniu/PageViewNode.csd" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="bag_type_text" ActionTag="-1031655477" Tag="456" IconVisible="False" LeftMargin="48.0000" RightMargin="192.0000" TopMargin="30.0000" BottomMargin="350.0000" FontSize="20" LabelText="一星背包" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
                 <Size X="80.0000" Y="20.0000" />
@@ -190,10 +190,10 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
-            <Position X="442.9621" Y="29.9900" />
+            <Position X="442.9621" Y="32.7881" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5537" Y="0.0625" />
+            <PrePosition X="0.5537" Y="0.0683" />
             <PreSize X="0.4000" Y="0.8333" />
             <FileData Type="Normal" Path="ui/xinxidi3.png" Plist="" />
             <SingleColor A="255" R="150" G="200" B="255" />

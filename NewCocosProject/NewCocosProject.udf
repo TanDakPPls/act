@@ -1,10 +1,56 @@
 <UserData Version="3.10.0.0">
   <Properties>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="org.cocos.NewCocosProject" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="" />
+        <iOS_Target Value="NewCocosProject-mobile" />
+        <iOS_BundleID Value="" />
+        <Platform Value="None" />
+        <RunPlatform Value="None" />
+        <FrameworkVersion Value="cocos2d-x-3.10" />
+        <IsDebugKeystore Value="True" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
     <Item Key="CocosRecentOperation">
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
         <IsLastPublish Value="True" />
         <LastRunType Value="Windows" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="zhujiemianjianzhu/EndlessTowerLayer.csd" />
+          <FilePathData Path="zhujiemianjianzhu/chengjiu.csd" />
+          <FilePathData Path="zhujiemian/zhujiemianyou.csd" />
+          <FilePathData Path="zhujiemianjianzhu/dixiacheng.csd" />
+          <FilePathData Path="zhujiemianjianzhu/shenmishengdi.csd" />
+          <FilePathData Path="zhujiemianjianzhu/shenyuan.csd" />
+          <FilePathData Path="zhujiemianjianzhu/TowerBase.csd" />
+          <FilePathData Path="zhujiemianjianzhu/TowerBody.csd" />
+          <FilePathData Path="zhujiemiananniu/BagLayer.csd" />
+          <FilePathData Path="zhujiemiananniu/Chooseell.csd" />
+          <FilePathData Path="zhujiemiananniu/equip.csd" />
+          <FilePathData Path="zhujiemiananniu/HeroEquipPage.csd" />
+          <FilePathData Path="zhujiemiananniu/HeroLayer.csd" />
+          <FilePathData Path="zhujiemiananniu/ItemNode.csd" />
+          <FilePathData Path="zhujiemiananniu/jineng.csd" />
+          <FilePathData Path="zhujiemiananniu/PageViewNode.csd" />
+          <FilePathData Path="zhujiemiananniu/jinengjiedian.csd" />
+          <FilePathData Path="zhujiemiananniu/jinengjiesuo.csd" />
+          <FilePathData Path="zhujiemiananniu/ForceTip.csd" />
+          <FilePathData Path="zhujiemian/zhujiemian.csd" />
+          <FilePathData Path="zhujiemian/zhujiemianzuo.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="zhujiemian/zhujiemianzuo.csd" />
       </Value>
     </Item>
   </Properties>

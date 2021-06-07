@@ -1,12 +1,90 @@
 <GameFile>
-  <PropertyGroup Name="Layer" Type="Layer" ID="fdedd694-6051-47c4-b7b8-b33070939c42" Version="3.10.0.0" />
+  <PropertyGroup Name="dixiacheng" Type="Layer" ID="fdedd694-6051-47c4-b7b8-b33070939c42" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="0" Speed="1.0000" />
+      <Animation Duration="31" Speed="0.5000">
+        <Timeline ActionTag="-2074537071" Property="Position">
+          <PointFrame FrameIndex="0" X="483.9674" Y="924.0000">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="10" X="483.9674" Y="296.0100">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="15" X="483.9674" Y="322.0100">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="20" X="483.9700" Y="314.0129">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="21" X="483.9700" Y="314.0129">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="26" X="483.9674" Y="299.0100">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="31" X="483.9674" Y="924.0000">
+            <EasingData Type="0" />
+          </PointFrame>
+        </Timeline>
+        <Timeline ActionTag="-2074537071" Property="Scale">
+          <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="10" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="15" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="20" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="21" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="26" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="31" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+        </Timeline>
+        <Timeline ActionTag="-2074537071" Property="RotationSkew">
+          <ScaleFrame FrameIndex="0" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="10" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="15" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="20" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="21" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="26" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="31" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+        </Timeline>
+      </Animation>
+      <AnimationList>
+        <AnimationInfo Name="in" StartIndex="0" EndIndex="20">
+          <RenderColor A="255" R="240" G="248" B="255" />
+        </AnimationInfo>
+        <AnimationInfo Name="out" StartIndex="21" EndIndex="31">
+          <RenderColor A="255" R="255" G="245" B="238" />
+        </AnimationInfo>
+      </AnimationList>
       <ObjectData Name="Layer" Tag="176" ctype="GameLayerObjectData">
         <Size X="960.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="Image_1" ActionTag="-2074537071" Tag="178" IconVisible="False" LeftMargin="33.9674" RightMargin="26.0326" TopMargin="75.9871" BottomMargin="64.0129" Scale9Enable="True" LeftEage="65" RightEage="65" TopEage="64" BottomEage="64" Scale9OriginX="65" Scale9OriginY="64" Scale9Width="69" Scale9Height="67" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_1" ActionTag="-2074537071" Tag="178" IconVisible="False" LeftMargin="33.9674" RightMargin="26.0326" TopMargin="-34.0080" BottomMargin="174.0080" Scale9Enable="True" LeftEage="65" RightEage="65" TopEage="64" BottomEage="64" Scale9OriginX="65" Scale9OriginY="64" Scale9Width="69" Scale9Height="67" ctype="ImageViewObjectData">
             <Size X="900.0000" Y="500.0000" />
             <Children>
               <AbstractNodeData Name="biaoqiandi_2" ActionTag="1572382462" Tag="179" IconVisible="False" LeftMargin="339.0211" RightMargin="340.9789" TopMargin="-17.1475" BottomMargin="463.1475" ctype="SpriteObjectData">
@@ -268,17 +346,6 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="fanhui_20" ActionTag="-227968002" Tag="200" IconVisible="False" LeftMargin="860.1104" RightMargin="-15.1104" TopMargin="-15.7462" BottomMargin="460.7462" ctype="SpriteObjectData">
-                <Size X="55.0000" Y="55.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="887.6104" Y="488.2462" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.9862" Y="0.9765" />
-                <PreSize X="0.0611" Y="0.1100" />
-                <FileData Type="Normal" Path="ui/fanhui.png" Plist="" />
-                <BlendFunc Src="1" Dst="771" />
-              </AbstractNodeData>
               <AbstractNodeData Name="kenenghuode_21" ActionTag="1689217759" Tag="201" IconVisible="False" LeftMargin="62.7787" RightMargin="754.2213" TopMargin="405.0927" BottomMargin="71.9073" ctype="SpriteObjectData">
                 <Size X="83.0000" Y="23.0000" />
                 <Children>
@@ -336,119 +403,154 @@
                 <FileData Type="Normal" Path="ui/kenenghuode.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
+              <AbstractNodeData Name="suolian_3" ActionTag="945529266" Tag="138" IconVisible="False" LeftMargin="128.1000" RightMargin="711.9000" TopMargin="-133.5000" BottomMargin="482.5000" ctype="SpriteObjectData">
+                <Size X="60.0000" Y="151.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="158.1000" Y="558.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.1757" Y="1.1160" />
+                <PreSize X="0.0667" Y="0.3020" />
+                <FileData Type="Normal" Path="ui/suolian.png" Plist="" />
+                <BlendFunc Src="1" Dst="771" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="suolian_3_0" ActionTag="-518097472" Tag="139" IconVisible="False" LeftMargin="707.8700" RightMargin="132.1300" TopMargin="-133.5000" BottomMargin="482.5000" ctype="SpriteObjectData">
+                <Size X="60.0000" Y="151.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="737.8700" Y="558.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.8199" Y="1.1160" />
+                <PreSize X="0.0667" Y="0.3020" />
+                <FileData Type="Normal" Path="ui/suolian.png" Plist="" />
+                <BlendFunc Src="1" Dst="771" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Button_7" ActionTag="1507074074" Tag="218" IconVisible="False" LeftMargin="16.0988" RightMargin="839.9012" TopMargin="228.1608" BottomMargin="211.8392" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="14" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="44.0000" Y="60.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="38.0988" Y="241.8392" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.0423" Y="0.4837" />
+                <PreSize X="0.0489" Y="0.1200" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <NormalFileData Type="Normal" Path="ui/fanyezuo.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Button_7_0" ActionTag="1171006948" Tag="219" IconVisible="False" LeftMargin="841.0945" RightMargin="14.9055" TopMargin="227.1608" BottomMargin="212.8392" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="14" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="44.0000" Y="60.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="863.0945" Y="242.8392" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.9590" Y="0.4857" />
+                <PreSize X="0.0489" Y="0.1200" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <NormalFileData Type="Normal" Path="ui/fanyeyou.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="tgjl_26" ActionTag="-1979998193" Tag="206" IconVisible="False" LeftMargin="563.1050" RightMargin="262.8950" TopMargin="400.1344" BottomMargin="77.8656" ctype="SpriteObjectData">
+                <Size X="74.0000" Y="22.0000" />
+                <Children>
+                  <AbstractNodeData Name="xgexp_28" ActionTag="999612210" Tag="209" IconVisible="False" LeftMargin="98.7158" RightMargin="-67.7158" TopMargin="-3.2901" BottomMargin="-15.7099" ctype="SpriteObjectData">
+                    <Size X="43.0000" Y="41.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="120.2158" Y="4.7901" />
+                    <Scale ScaleX="0.7000" ScaleY="0.7000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="1.6245" Y="0.2177" />
+                    <PreSize X="0.5811" Y="1.8636" />
+                    <FileData Type="Normal" Path="ui/xgexp.png" Plist="" />
+                    <BlendFunc Src="1" Dst="771" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Text_3" ActionTag="-378196388" Tag="208" IconVisible="False" LeftMargin="166.8909" RightMargin="-140.8909" TopMargin="-23.3919" BottomMargin="21.3919" FontSize="24" LabelText="2000" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="48.0000" Y="24.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="190.8909" Y="33.3919" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="2.5796" Y="1.5178" />
+                    <PreSize X="0.6486" Y="1.0909" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="qianbiao_27" ActionTag="134436730" Tag="207" IconVisible="False" LeftMargin="103.4660" RightMargin="-62.4660" TopMargin="-29.3147" BottomMargin="20.3147" ctype="SpriteObjectData">
+                    <Size X="33.0000" Y="31.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="119.9660" Y="35.8147" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="1.6212" Y="1.6279" />
+                    <PreSize X="0.4459" Y="1.4091" />
+                    <FileData Type="Normal" Path="ui/qianbiao.png" Plist="" />
+                    <BlendFunc Src="1" Dst="771" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="xgsp_29" ActionTag="-1499542847" Tag="210" IconVisible="False" LeftMargin="99.0909" RightMargin="-66.0909" TopMargin="28.2322" BottomMargin="-47.2322" ctype="SpriteObjectData">
+                    <Size X="41.0000" Y="41.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="119.5909" Y="-26.7322" />
+                    <Scale ScaleX="0.7000" ScaleY="0.7000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="1.6161" Y="-1.2151" />
+                    <PreSize X="0.5541" Y="1.8636" />
+                    <FileData Type="Normal" Path="ui/xgsp.png" Plist="" />
+                    <BlendFunc Src="1" Dst="771" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Text_3_0" ActionTag="-700425883" Tag="211" IconVisible="False" LeftMargin="167.9494" RightMargin="-117.9494" TopMargin="5.9812" BottomMargin="-7.9812" FontSize="24" LabelText="20" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="24.0000" Y="24.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="179.9494" Y="4.0188" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="2.4317" Y="0.1827" />
+                    <PreSize X="0.3243" Y="1.0909" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Text_3_0_0" ActionTag="307284906" Tag="212" IconVisible="False" LeftMargin="169.2299" RightMargin="-107.2299" TopMargin="34.8918" BottomMargin="-36.8918" FontSize="24" LabelText="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="12.0000" Y="24.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="175.2299" Y="-24.8918" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="2.3680" Y="-1.1314" />
+                    <PreSize X="0.1622" Y="1.0909" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="600.1050" Y="88.8656" />
+                <Scale ScaleX="1.3000" ScaleY="1.3000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.6668" Y="0.1777" />
+                <PreSize X="0.0822" Y="0.0440" />
+                <FileData Type="Normal" Path="ui/tgjl.png" Plist="" />
+                <BlendFunc Src="1" Dst="771" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="Button_3" ActionTag="-202602638" Tag="873" IconVisible="False" LeftMargin="853.5000" RightMargin="-8.5000" TopMargin="-12.5000" BottomMargin="457.5000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="25" Scale9Height="33" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="55.0000" Y="55.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="881.0000" Y="485.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.9789" Y="0.9700" />
+                <PreSize X="0.0611" Y="0.1100" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <NormalFileData Type="Normal" Path="ui/fanhui.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="483.9674" Y="314.0129" />
+            <Position X="483.9674" Y="424.0080" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5041" Y="0.4906" />
+            <PrePosition X="0.5041" Y="0.6625" />
             <PreSize X="0.9375" Y="0.7813" />
             <FileData Type="Normal" Path="ui/xinxidi.png" Plist="" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="tgjl_26" ActionTag="-1979998193" Tag="206" IconVisible="False" LeftMargin="586.1543" RightMargin="299.8457" TopMargin="478.4742" BottomMargin="139.5257" ctype="SpriteObjectData">
-            <Size X="74.0000" Y="22.0000" />
-            <Children>
-              <AbstractNodeData Name="xgexp_28" ActionTag="999612210" Tag="209" IconVisible="False" LeftMargin="98.7158" RightMargin="-67.7158" TopMargin="-3.2901" BottomMargin="-15.7099" ctype="SpriteObjectData">
-                <Size X="43.0000" Y="41.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="120.2158" Y="4.7901" />
-                <Scale ScaleX="0.7000" ScaleY="0.7000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="1.6245" Y="0.2177" />
-                <PreSize X="0.5811" Y="1.8636" />
-                <FileData Type="Normal" Path="ui/xgexp.png" Plist="" />
-                <BlendFunc Src="1" Dst="771" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="Text_3" ActionTag="-378196388" Tag="208" IconVisible="False" LeftMargin="166.8909" RightMargin="-140.8909" TopMargin="-23.3919" BottomMargin="21.3919" FontSize="24" LabelText="2000" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="48.0000" Y="24.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="190.8909" Y="33.3919" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="2.5796" Y="1.5178" />
-                <PreSize X="0.6486" Y="1.0909" />
-                <OutlineColor A="255" R="255" G="0" B="0" />
-                <ShadowColor A="255" R="110" G="110" B="110" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="qianbiao_27" ActionTag="134436730" Tag="207" IconVisible="False" LeftMargin="103.4660" RightMargin="-62.4660" TopMargin="-29.3147" BottomMargin="20.3147" ctype="SpriteObjectData">
-                <Size X="33.0000" Y="31.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="119.9660" Y="35.8147" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="1.6212" Y="1.6279" />
-                <PreSize X="0.4459" Y="1.4091" />
-                <FileData Type="Normal" Path="ui/qianbiao.png" Plist="" />
-                <BlendFunc Src="1" Dst="771" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="xgsp_29" ActionTag="-1499542847" Tag="210" IconVisible="False" LeftMargin="99.0909" RightMargin="-66.0909" TopMargin="28.2322" BottomMargin="-47.2322" ctype="SpriteObjectData">
-                <Size X="41.0000" Y="41.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="119.5909" Y="-26.7322" />
-                <Scale ScaleX="0.7000" ScaleY="0.7000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="1.6161" Y="-1.2151" />
-                <PreSize X="0.5541" Y="1.8636" />
-                <FileData Type="Normal" Path="ui/xgsp.png" Plist="" />
-                <BlendFunc Src="1" Dst="771" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="Text_3_0" ActionTag="-700425883" Tag="211" IconVisible="False" LeftMargin="188.9495" RightMargin="-138.9495" TopMargin="5.9812" BottomMargin="-7.9812" FontSize="24" LabelText="20" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="24.0000" Y="24.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="200.9495" Y="4.0188" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="2.7155" Y="0.1827" />
-                <PreSize X="0.3243" Y="1.0909" />
-                <OutlineColor A="255" R="255" G="0" B="0" />
-                <ShadowColor A="255" R="110" G="110" B="110" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="Text_3_0_0" ActionTag="307284906" Tag="212" IconVisible="False" LeftMargin="202.2313" RightMargin="-140.2313" TopMargin="34.8918" BottomMargin="-36.8918" FontSize="24" LabelText="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                <Size X="12.0000" Y="24.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="208.2313" Y="-24.8918" />
-                <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="2.8139" Y="-1.1314" />
-                <PreSize X="0.1622" Y="1.0909" />
-                <OutlineColor A="255" R="255" G="0" B="0" />
-                <ShadowColor A="255" R="110" G="110" B="110" />
-              </AbstractNodeData>
-            </Children>
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="623.1543" Y="150.5257" />
-            <Scale ScaleX="1.3000" ScaleY="1.3000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.6491" Y="0.2352" />
-            <PreSize X="0.0771" Y="0.0344" />
-            <FileData Type="Normal" Path="ui/tgjl.png" Plist="" />
-            <BlendFunc Src="1" Dst="771" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Button_7" ActionTag="1507074074" Tag="218" IconVisible="False" LeftMargin="51.3495" RightMargin="864.6505" TopMargin="293.5851" BottomMargin="286.4149" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="14" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="44.0000" Y="60.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="73.3495" Y="316.4149" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.0764" Y="0.4944" />
-            <PreSize X="0.0458" Y="0.0938" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <NormalFileData Type="Normal" Path="ui/fanyezuo.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="Button_7_0" ActionTag="1171006948" Tag="219" IconVisible="False" LeftMargin="876.3495" RightMargin="39.6505" TopMargin="292.5851" BottomMargin="287.4149" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="14" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="44.0000" Y="60.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="898.3495" Y="317.4149" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.9358" Y="0.4960" />
-            <PreSize X="0.0458" Y="0.0938" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <NormalFileData Type="Normal" Path="ui/fanyeyou.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

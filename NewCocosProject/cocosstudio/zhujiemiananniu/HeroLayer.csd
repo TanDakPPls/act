@@ -89,23 +89,12 @@
       <ObjectData Name="Layer" Tag="70" ctype="GameLayerObjectData">
         <Size X="800.0000" Y="480.0000" />
         <Children>
-          <AbstractNodeData Name="bg_panel" ActionTag="1321420686" Tag="73" IconVisible="False" LeftMargin="58.4099" RightMargin="341.5901" TopMargin="37.7971" BottomMargin="32.2029" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="65" RightEage="65" TopEage="64" BottomEage="64" Scale9OriginX="65" Scale9OriginY="64" Scale9Width="69" Scale9Height="67" ctype="PanelObjectData">
+          <AbstractNodeData Name="bg_panel" ActionTag="1321420686" Tag="73" IconVisible="False" LeftMargin="58.4099" RightMargin="341.5901" TopMargin="43.7988" BottomMargin="26.2012" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="65" RightEage="65" TopEage="64" BottomEage="64" Scale9OriginX="65" Scale9OriginY="64" Scale9Width="69" Scale9Height="67" ctype="PanelObjectData">
             <Size X="400.0000" Y="410.0000" />
             <Children>
               <AbstractNodeData Name="data_panel" ActionTag="-1167500794" Tag="83" IconVisible="False" LeftMargin="32.7500" RightMargin="32.2500" TopMargin="273.7037" BottomMargin="29.2963" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="55" RightEage="55" TopEage="57" BottomEage="57" Scale9OriginX="55" Scale9OriginY="57" Scale9Width="57" Scale9Height="59" ctype="PanelObjectData">
                 <Size X="335.0000" Y="107.0000" />
                 <Children>
-                  <AbstractNodeData Name="zhandouli_45" ActionTag="660451206" Tag="267" IconVisible="False" LeftMargin="7.0145" RightMargin="279.9855" TopMargin="16.9024" BottomMargin="71.0976" ctype="SpriteObjectData">
-                    <Size X="48.0000" Y="19.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="31.0145" Y="80.5976" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0926" Y="0.7532" />
-                    <PreSize X="0.1433" Y="0.1776" />
-                    <FileData Type="Normal" Path="ui/zhandouli.png" Plist="" />
-                    <BlendFunc Src="1" Dst="771" />
-                  </AbstractNodeData>
                   <AbstractNodeData Name="shengmingzi_46" ActionTag="-833447680" Tag="268" IconVisible="False" LeftMargin="6.7457" RightMargin="280.2543" TopMargin="45.4211" BottomMargin="43.5789" ctype="SpriteObjectData">
                     <Size X="48.0000" Y="18.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -160,17 +149,6 @@
                     <PreSize X="0.1433" Y="0.1682" />
                     <FileData Type="Normal" Path="ui/pomozi.png" Plist="" />
                     <BlendFunc Src="1" Dst="771" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="force_text" ActionTag="-1268166585" Tag="44" IconVisible="False" LeftMargin="59.9033" RightMargin="221.0967" TopMargin="16.8645" BottomMargin="72.1355" FontSize="18" LabelText="999999" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                    <Size X="54.0000" Y="18.0000" />
-                    <AnchorPoint ScaleY="0.5000" />
-                    <Position X="59.9033" Y="81.1355" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.1788" Y="0.7583" />
-                    <PreSize X="0.1612" Y="0.1682" />
-                    <OutlineColor A="255" R="255" G="0" B="0" />
-                    <ShadowColor A="255" R="110" G="110" B="110" />
                   </AbstractNodeData>
                   <AbstractNodeData Name="hp_text" ActionTag="285965132" Tag="45" IconVisible="False" LeftMargin="59.9033" RightMargin="239.0967" TopMargin="45.3833" BottomMargin="43.6167" FontSize="18" LabelText="8888" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                     <Size X="36.0000" Y="18.0000" />
@@ -389,6 +367,28 @@
                     <FileData Type="Normal" Path="ui/LV.png" Plist="" />
                     <BlendFunc Src="1" Dst="771" />
                   </AbstractNodeData>
+                  <AbstractNodeData Name="zhandouli_45" ActionTag="660451206" Tag="267" IconVisible="False" LeftMargin="60.0281" RightMargin="196.9719" TopMargin="38.7282" BottomMargin="273.2718" ctype="SpriteObjectData">
+                    <Size X="48.0000" Y="19.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="84.0281" Y="282.7718" />
+                    <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                    <CColor A="255" R="255" G="0" B="0" />
+                    <PrePosition X="0.2755" Y="0.8543" />
+                    <PreSize X="0.1574" Y="0.0574" />
+                    <FileData Type="Normal" Path="ui/zhandouli.png" Plist="" />
+                    <BlendFunc Src="770" Dst="1" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="force_text" ActionTag="-1268166585" Tag="44" IconVisible="False" LeftMargin="154.9135" RightMargin="96.0865" TopMargin="40.3438" BottomMargin="272.6562" FontSize="18" LabelText="999999" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="54.0000" Y="18.0000" />
+                    <AnchorPoint ScaleY="0.5000" />
+                    <Position X="154.9135" Y="281.6562" />
+                    <Scale ScaleX="2.0000" ScaleY="2.0000" />
+                    <CColor A="255" R="255" G="0" B="27" />
+                    <PrePosition X="0.5079" Y="0.8509" />
+                    <PreSize X="0.1770" Y="0.0544" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="112.8400" Y="263.7451" />
@@ -471,16 +471,26 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint />
-            <Position X="58.4099" Y="32.2029" />
+            <Position X="58.4099" Y="26.2012" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.0730" Y="0.0671" />
+            <PrePosition X="0.0730" Y="0.0546" />
             <PreSize X="0.5000" Y="0.8542" />
             <FileData Type="Normal" Path="ui/xinxidi.png" Plist="" />
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="FileNode_1" ActionTag="1970051954" Tag="861" IconVisible="True" LeftMargin="349.8185" RightMargin="450.1815" TopMargin="185.7705" BottomMargin="294.2295" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="0.5000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="349.8185" Y="294.2295" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4373" Y="0.6130" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="zhujiemiananniu/HeroEquipPage.csd" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

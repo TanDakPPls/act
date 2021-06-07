@@ -30,46 +30,24 @@
             <FileData Type="Normal" Path="ui/qiandi.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_1" ActionTag="1157745538" Tag="234" IconVisible="False" LeftMargin="-249.1817" RightMargin="175.1817" TopMargin="-308.0459" BottomMargin="236.0459" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="44" Scale9Height="50" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="74.0000" Y="72.0000" />
+          <AbstractNodeData Name="Button_1" ActionTag="1157745538" Tag="234" IconVisible="False" LeftMargin="-291.0055" RightMargin="174.0055" TopMargin="-315.2446" BottomMargin="195.2446" TouchEnable="True" FontSize="14" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="87" Scale9Height="98" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="117.0000" Y="120.0000" />
             <Children>
-              <AbstractNodeData Name="Head_icon_1_1" ActionTag="-1535887028" Tag="235" IconVisible="False" LeftMargin="-2.3589" RightMargin="-0.6411" TopMargin="-2.6975" BottomMargin="-2.3025" ctype="SpriteObjectData">
+              <AbstractNodeData Name="Head_icon_1_1" ActionTag="-1535887028" Tag="235" IconVisible="False" LeftMargin="20.2763" RightMargin="19.7237" TopMargin="14.2281" BottomMargin="28.7719" ctype="SpriteObjectData">
                 <Size X="77.0000" Y="77.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="36.1411" Y="36.1975" />
-                <Scale ScaleX="0.8000" ScaleY="0.8000" />
+                <Position X="58.7763" Y="67.2719" />
+                <Scale ScaleX="1.1495" ScaleY="1.1495" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.4884" Y="0.5027" />
-                <PreSize X="1.0405" Y="1.0694" />
+                <PrePosition X="0.5024" Y="0.5606" />
+                <PreSize X="0.6581" Y="0.6417" />
                 <FileData Type="Normal" Path="ui/Head_icon_1.png" Plist="" />
-                <BlendFunc Src="1" Dst="771" />
-              </AbstractNodeData>
-              <AbstractNodeData Name="jiaobiaodi_2" ActionTag="-1443089847" Tag="236" IconVisible="False" LeftMargin="-30.2465" RightMargin="30.2465" TopMargin="-18.9998" BottomMargin="18.9998" ctype="SpriteObjectData">
-                <Size X="74.0000" Y="72.0000" />
-                <Children>
-                  <AbstractNodeData Name="BitmapFontLabel_1" ActionTag="-1690718709" Tag="237" IconVisible="False" LeftMargin="31.5768" RightMargin="35.4232" TopMargin="27.0813" BottomMargin="29.9187" LabelText="1" ctype="TextBMFontObjectData">
-                    <Size X="7.0000" Y="15.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="35.0768" Y="37.4187" />
-                    <Scale ScaleX="2.0000" ScaleY="2.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.4740" Y="0.5197" />
-                    <PreSize X="0.0946" Y="0.2083" />
-                  </AbstractNodeData>
-                </Children>
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="6.7535" Y="54.9998" />
-                <Scale ScaleX="0.4000" ScaleY="0.4000" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.0913" Y="0.7639" />
-                <PreSize X="1.0000" Y="1.0000" />
-                <FileData Type="Normal" Path="ui/head_bg.png" Plist="" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="-212.1817" Y="272.0459" />
-            <Scale ScaleX="1.2000" ScaleY="1.2000" />
+            <Position X="-232.5055" Y="255.2446" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />

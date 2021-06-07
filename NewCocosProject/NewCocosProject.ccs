@@ -3,24 +3,6 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Folder Name="ccb">
-          <File Name=".DS_Store" />
-          <Project Name="BagLayer.csd" Type="Layer" />
-          <File Name="Chooseell.csb" />
-          <Project Name="Chooseell.csd" Type="Layer" />
-          <Project Name="EndlessTowerLayer.csd" Type="Layer" />
-          <Project Name="equip.csd" Type="Layer" />
-          <Project Name="ForceTip.csd" Type="Node" />
-          <Project Name="HeroEquipPage.csd" Type="Node" />
-          <Project Name="HeroLayer.csd" Type="Layer" />
-          <Project Name="ItemNode.csd" Type="Node" />
-          <Project Name="jineng.csd" Type="Layer" />
-          <Project Name="jinengjiedian.csd" Type="Node" />
-          <Project Name="jinengjiesuo.csd" Type="Node" />
-          <Project Name="PageViewNode.csd" Type="Node" />
-          <Project Name="TowerBase.csd" Type="Node" />
-          <Project Name="TowerBody.csd" Type="Node" />
-        </Folder>
         <Folder Name="choose">
           <Project Name="choose1.csd" Type="Layer" />
           <Project Name="choose2.csd" Type="Layer" />
@@ -46,6 +28,9 @@
           <Project Name="yingxionglibao.csd" Type="Layer" />
           <Project Name="zhongjijinbilibao.csd" Type="Layer" />
           <Project Name="zhongjizuanshilibao.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="loading">
+          <Project Name="loading.csd" Type="Layer" />
         </Folder>
         <Folder Name="Particle">
           <PlistParticleFile Name="frie.plist" />
@@ -488,6 +473,7 @@
           <Image Name="hui.png" />
           <Image Name="huodeshuzi.png" />
           <Image Name="huodongbiao.png" />
+          <Image Name="huodongbiao.png.png" />
           <Image Name="jiange.png" />
           <Image Name="jianglilibaowenzi_1.png" />
           <Image Name="jianglilibaozi.png" />
@@ -703,6 +689,7 @@
           <Image Name="saleallone.png" />
           <Image Name="saleflash.png" />
           <Image Name="sanjiantaolibao.png" />
+          <Image Name="sanjiantaolibao.png.png" />
           <Image Name="saodangjiesuanzi.png" />
           <Image Name="shadow.png" />
           <Image Name="shaizi.png" />
@@ -888,9 +875,11 @@
           <Image Name="xingguang.png" />
           <Image Name="xingxing.png" />
           <Image Name="xinnianhongbaobiao.png" />
+          <Image Name="xinnianhongbaobiao.png.png" />
           <Image Name="xinnianhongbaoneirong.png" />
           <Image Name="xinnianhongbaozi.png" />
           <Image Name="xinshoulibaobiao.png" />
+          <Image Name="xinshoulibaobiao.png.png" />
           <Image Name="xinshoulibaozi.png" />
           <Image Name="xinxidi.png" />
           <Image Name="xinxidi2.png" />
@@ -978,6 +967,7 @@
           <Image Name="zy_anniu4.png" />
           <Image Name="zy_anniu5.png" />
           <Image Name="zy_anniu6.png" />
+          <Image Name="zy_anniu7.png" />
           <Image Name="zy_in.png" />
           <Image Name="zy_out.png" />
           <Image Name="zyjz1.png" />
@@ -1002,14 +992,32 @@
           <Project Name="zhujiemianyou.csd" Type="Node" />
           <Project Name="zhujiemianzuo.csd" Type="Node" />
         </Folder>
+        <Folder Name="zhujiemiananniu">
+          <Project Name="BagLayer.csd" Type="Layer" />
+          <File Name="Chooseell.csb" />
+          <Project Name="Chooseell.csd" Type="Layer" />
+          <Project Name="equip.csd" Type="Layer" />
+          <Project Name="ForceTip.csd" Type="Node" />
+          <Project Name="HeroEquipPage.csd" Type="Node" />
+          <Project Name="HeroLayer.csd" Type="Layer" />
+          <Project Name="ItemNode.csd" Type="Node" />
+          <Project Name="jineng.csd" Type="Layer" />
+          <Project Name="jinengjiedian.csd" Type="Node" />
+          <Project Name="jinengjiesuo.csd" Type="Node" />
+          <Project Name="PageViewNode.csd" Type="Node" />
+          <File Name=".DS_Store" />
+        </Folder>
+        <Folder Name="zhujiemianjianzhu">
+          <Project Name="chengjiu.csd" Type="Layer" />
+          <Project Name="dixiacheng.csd" Type="Layer" />
+          <Project Name="EndlessTowerLayer.csd" Type="Layer" />
+          <Project Name="shenmishengdi.csd" Type="Layer" />
+          <Project Name="shenyuan.csd" Type="Layer" />
+          <Project Name="TowerBase.csd" Type="Node" />
+          <Project Name="TowerBody.csd" Type="Node" />
+        </Folder>
         <Image Name="HelloWorld.png" />
         <Project Name="MainScene.csd" Type="Scene" />
-        <Folder Name="loading">
-          <Project Name="loading.csd" Type="Layer" />
-        </Folder>
-        <Folder Name="dixiacheng">
-          <Project Name="Layer.csd" Type="Layer" />
-        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>
