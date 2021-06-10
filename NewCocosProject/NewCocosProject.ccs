@@ -993,6 +993,7 @@
           <Project Name="zhujiemianzuo.csd" Type="Node" />
         </Folder>
         <Folder Name="zhujiemiananniu">
+          <File Name=".DS_Store" />
           <Project Name="BagLayer.csd" Type="Layer" />
           <File Name="Chooseell.csb" />
           <Project Name="Chooseell.csd" Type="Layer" />
@@ -1005,7 +1006,6 @@
           <Project Name="jinengjiedian.csd" Type="Node" />
           <Project Name="jinengjiesuo.csd" Type="Node" />
           <Project Name="PageViewNode.csd" Type="Node" />
-          <File Name=".DS_Store" />
         </Folder>
         <Folder Name="zhujiemianjianzhu">
           <Project Name="chengjiu.csd" Type="Layer" />
@@ -1018,6 +1018,9 @@
         </Folder>
         <Image Name="HelloWorld.png" />
         <Project Name="MainScene.csd" Type="Scene" />
+        <Folder Name="renwu">
+          <Project Name="renwu.csd" Type="Layer" />
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>

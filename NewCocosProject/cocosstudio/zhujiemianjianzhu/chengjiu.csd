@@ -76,7 +76,7 @@
       <ObjectData Name="Layer" Tag="192" ctype="GameLayerObjectData">
         <Size X="960.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="Image_1" ActionTag="857105532" Tag="193" IconVisible="False" LeftMargin="33.9695" RightMargin="26.0305" TopMargin="78.9877" BottomMargin="61.0123" Scale9Enable="True" LeftEage="65" RightEage="65" TopEage="64" BottomEage="64" Scale9OriginX="65" Scale9OriginY="64" Scale9Width="69" Scale9Height="67" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_1" ActionTag="857105532" Tag="193" IconVisible="False" LeftMargin="33.9684" RightMargin="26.0316" TopMargin="71.1888" BottomMargin="68.8112" Scale9Enable="True" LeftEage="65" RightEage="65" TopEage="64" BottomEage="64" Scale9OriginX="65" Scale9OriginY="64" Scale9Width="69" Scale9Height="67" ctype="ImageViewObjectData">
             <Size X="900.0000" Y="500.0000" />
             <Children>
               <AbstractNodeData Name="biaoqiandi_2" ActionTag="264391321" Tag="194" IconVisible="False" LeftMargin="339.0211" RightMargin="340.9789" TopMargin="-17.1475" BottomMargin="463.1475" ctype="SpriteObjectData">
@@ -652,10 +652,10 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="483.9695" Y="311.0123" />
+            <Position X="483.9684" Y="318.8112" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5041" Y="0.4860" />
+            <PrePosition X="0.5041" Y="0.4981" />
             <PreSize X="0.9375" Y="0.7813" />
             <FileData Type="Normal" Path="ui/xinxidi.png" Plist="" />
           </AbstractNodeData>
